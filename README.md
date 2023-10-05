@@ -21,3 +21,16 @@ Here you will find all the examples provided during the course.
 | --------------------------------------------------- | ---------------------------- |
 | [index.html](examples/index.html)                   | basic document               |
 | [indexCommented.html](examples/indexCommented.html) | basic document with comments |
+| [template](examples/template)                       | modello di struttura sito    |
+## List of exercises
+Here you will find some of the exercises assigned during the course.
+>**Feel absolutely obliged to complete them...**
+
+>**...remembering that your work might be assessed!!!**
+
+>**Solutions are NOT necessarily provided!!!**
+
+
+| exercise                        | topic           | solution            |
+| ------------------------------- | --------------- | ------------------- |
+| [first](exercises/shortcuts.md) | primo esercizio | N/A = Not Available |
