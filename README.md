@@ -22,6 +22,7 @@ Here you will find all the examples provided during the course.
 | [index.html](examples/index.html)                   | basic document               |
 | [indexCommented.html](examples/indexCommented.html) | basic document with comments |
 | [template](examples/template)                       | modello di struttura sito    |
+| [elementi](examples/elements/index.html)            | Esempi di elementi html      |
 ## List of exercises
 Here you will find some of the exercises assigned during the course.
 >**Feel absolutely obliged to complete them...**
