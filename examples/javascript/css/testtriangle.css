@@ -1,0 +1,19 @@
+/* core style */
+label {
+    display: block;
+    margin: 1em;
+    font-weight: bold;
+}
+
+label input {
+    border: 4px solid green;
+    padding: 1em;
+}
+
+#possibile {
+    background-color: aqua;
+}
+
+#rettangolo {
+    background-color: lightblue;
+}
