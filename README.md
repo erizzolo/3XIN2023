@@ -25,6 +25,7 @@ Here you will find all the examples provided during the course.
 | [elementi](examples/elements/index.html)            | Esempi di elementi html      |
 | [stili](examples/styles/index.html)                 | Esempi di stili html         |
 | [javascript](examples/javascript/index.html)        | Esempi di codice javascript  |
+
 ## List of exercises
 Here you will find some of the exercises assigned during the course.
 >**Feel absolutely obliged to complete them...**
@@ -33,7 +34,7 @@ Here you will find some of the exercises assigned during the course.
 
 >**Solutions are NOT necessarily provided!!!**
 
-
-| exercise                        | topic           | solution            |
-| ------------------------------- | --------------- | ------------------- |
-| [first](exercises/shortcuts.md) | primo esercizio | N/A = Not Available |
+| exercise                        | topic           | solution                            |
+| ------------------------------- | --------------- | ----------------------------------- |
+| [first](exercises/shortcuts.md) | primo esercizio | N/A = Not Available                 |
+| ...                             | Sito giochi     | [games](solutions/games/index.html) |

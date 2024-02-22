@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Calcolo tempo di reazione</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Emanuele Rizzolo">
+    <meta name="description" content="Esempio di ritardo casuale e misurazione intervallo tempo">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/reazione.css">
+    <script src="../js/core.js"></script>
+    <script src="../js/reazione.js"></script>
+</head>
+
+<body>
+    <h1>Calcolo tempo di reazione</h1>
+    <h2>La pagina mostra un esempio di generazione numeri casuali, ritardo e misurazione del tempo trascorso.</h2>
+    <h3>Inoltre si presenta un esempio di come salvare dei dati nel browser.</h3>
+    <p>
+        Per calcolare il tempo di reazione, devi premere il pulsante con la scritta <b>Test</b>, dopo che il colore del
+        "semaforo" è diventato verde.
+    </p>
+    <p>
+        Dopo averlo calcolato, è possibile salvare il tempo in modo che possa essere usato da (altre) pagine.
+    </p>
+    <p>
+        Premi il pulsante con la scritta <b>Inizia</b> quando sei pronto.
+    </p>
+    <button type="button" onclick="start()">Inizia</button>
+    <hr>
+    <button type="button" id="semaforo" class="rosso">Semaforo</button>
+    <button type="button" onclick="test()">Test</button>
+    <hr>
+    <p>
+        Risultato: <span id="reaction">?</span> ms
+    </p>
+    <button type="button" id="save" onclick="save()" disabled>Save</button>
+    <p>
+        Stored time: <span id="stored">?</span> ms
+    </p>
+    <hr>
+    <a href="reazione.html"> Calcolo tempo di reazione </a>
+    <hr>
+    <a href="../index.html"> back to home page </a>
+</body>
+
+</html>

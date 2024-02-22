@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Calcolo spazio di frenata e distanza di sicurezza</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Emanuele Rizzolo">
+    <meta name="description" content="Esempio di calcoli on showInput">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/frenata.css">
+    <script src="../js/core.js"></script>
+    <script src="../js/frenata.js"></script>
+</head>
+
+<body>
+    <h1>Calcolo spazio di frenata</h1>
+    <h2>La pagina mostra un esempio di calcolo effettuato ad ogni modifica degli elementi di input.</h2>
+    <label>Velocità: min 0
+        <input oninput="showInput()" type="range" id="speed" value="50" min="0" max="130" step="5">
+        max 130 [km/h]
+    </label>
+    <p>
+        Velocità scelta:
+        <span id="velocity">50</span>
+        [km/h]
+    </p>
+    <ol>
+        <li>
+            Condizioni ottimali (0.8): <span id="optimal"></span> m
+        </li>
+        <li>
+            Asfalto bagnato (0.4): <span id="wet"></span> m
+        </li>
+        <li>
+            Strada ghiacciata (0.05): <span id="ice"></span> m
+        </li>
+    </ol>
+    <hr>
+    <a href="reazione.html">Calcolo tempo di reazione</a>
+    <hr>
+    <a href="../index.html">back to home page</a>
+</body>
+
+</html>

@@ -40,11 +40,27 @@
     <p>Attenzione perché se nessuna opzione è selezionata il metodo restituisce <strong>null</strong>!!!</p>
     <p><a href="../js/inforadio.js">Vedi il codice</a></p>
     <p>Scegli il tuo linguaggio preferito:</p>
-    <label>HTML<input oninput="showInput()" type="radio" name="linguaggio" value="HTML"></label>
-    <label>Javascript<input oninput="showInput()" type="radio" name="linguaggio" value="js"></label>
-    <label>Italiano<input oninput="showInput()" type="radio" name="linguaggio" value="italian"></label>
-    <label>qualunque, ma non di programmazione<input oninput="showInput()" type="radio" name="linguaggio"
-            value="any"></label>
+    <label>
+        HTML
+        <input oninput="showInput()" type="radio" name="linguaggio" value="HTML">
+    </label>
+    <label>
+        Javascript
+        <input oninput="showInput()" type="radio" name="linguaggio" value="js">
+    </label>
+    <label>
+        Italiano
+        <input oninput="showInput()" type="radio" name="linguaggio" value="italian">
+    </label>
+    <label>
+        qualunque , ma non di programmazione
+        <input oninput="showInput()" type="radio" name="linguaggio" value="any">
+    </label>
+    <!-- <label>
+        nessuna scelta
+        <input oninput="showInput()" type="radio" name="linguaggio" value="none" checked>
+    </label> -->
+    <button type="button" onclick="annulla('linguaggio')">Annulla scelta</button>
     <pre>
     <code>
         let e = document.querySelector('input[name="linguaggio"]:checked')  // 1 '<span id="radioQuery"></span>'

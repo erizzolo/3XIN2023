@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Esempio di quantità</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Emanuele Rizzolo">
+    <meta name="description" content="Esempio di applicazione con storia">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/frenata.css">
+    <script src="../js/core.js"></script>
+    <script src="../js/frenata.js"></script>
+</head>
+
+<body>
+    <h1>Calcolo spazio di frenata</h1>
+    <label>Velocità:
+        <input oninput="showInput()" type="range" id="speed" value="50" min="0" max="130" step="5">
+        <span id="velocity">50</span>
+        [km/h]
+    </label>
+    <ol>
+        <li>
+            Condizioni ottimali (0.8): <span id="optimal"></span> m
+        </li>
+        <li>
+            Asfalto bagnato (0.4): <span id="wet"></span> m
+        </li>
+        <li>
+            Strada ghiacciata (0.05): <span id="ice"></span> m
+        </li>
+    </ol>
+    <hr>
+    <a href="../index.html"> back to home page </a>
+</body>
+
+</html>
